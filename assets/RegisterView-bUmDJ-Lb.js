@@ -1,0 +1,1 @@
+import{_ as e}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{c as r,g as c}from"./index-BtiIgKjz.js";const t={};function o(n,s){return c(),r("h1",null,"注册")}const f=e(t,[["render",o]]);export{f as default};
