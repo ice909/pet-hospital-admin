@@ -6,8 +6,10 @@ export const useStore = defineStore('main', () => {
   const setPath = () => {
     currentPathName.value = localStorage.getItem('currentPathName')
   }
+  const logout = () => {}
   return {
     currentPathName,
     setPath,
+    logout,
   }
 })
