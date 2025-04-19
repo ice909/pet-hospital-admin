@@ -13,6 +13,11 @@ const routes = [
     component: () => import('@/views/RegisterView.vue'),
   },
   {
+    path: '/404',
+    name: '404',
+    component: () => import('@/views/404View.vue'),
+  },
+  {
     path: '/front',
     name: 'Front',
     component: () => import('@/views/front/FrontView.vue'),
