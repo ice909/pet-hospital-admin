@@ -1,0 +1,1 @@
+import{c as e,e as t,i as a,R as o,g as r}from"./index-CiC93tYm.js";const s={style:{width:"800px",margin:"0 auto"}},p={__name:"FrontView",setup(c){return(n,_)=>(r(),e("div",s,[t(a(o))]))}};export{p as default};
