@@ -1,3 +1,3 @@
 <template>
-  <div>首页</div>
+  <h1>注册</h1>
 </template>
