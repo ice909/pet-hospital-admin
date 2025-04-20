@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const server = axios.create({
-  baseURL: 'https://m1.apifoxmock.com/m1/6252794-5946750-default',
+  baseURL: import.meta.env.VITE_API_URL,
   timeout: 15000,
 })
 // 请求拦截器

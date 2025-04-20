@@ -104,7 +104,7 @@ const login = async () => {
       try {
         const res = await Login(user.value)
         console.log(res)
-        if (res.code === 200) {
+        if (res.code === '200') {
           localStorage.setItem('user', JSON.stringify(res.data)) // 存储用户信息到浏览器
           localStorage.setItem('menus', JSON.stringify(res.data.menus)) // 存储用户信息到浏览器
 
